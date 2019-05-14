@@ -1,6 +1,8 @@
 export default {
-  //
-  serial: 'DEV',
-  produced: {},
+  device : {
+    serial: 'DEV',
+    produced: {},
+    model: "QuickTOCuv"
+  },
   level: {}
 }

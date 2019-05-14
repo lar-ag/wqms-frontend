@@ -2,7 +2,7 @@ export default {
   drawerState: true,
   menuList: [
     {
-      link: '/uv',
+      link: '/',
       name: 'status',
       icon: 'dashboard',
       label: 'Status'
@@ -55,5 +55,18 @@ export default {
       icon: 'power_settings_new',
       label: 'Power off'
     }
-  ]
+  ],
+  dashboard: {
+    airflow: true,
+    humidity: true,
+    pressure: true,
+    sensors: {
+      ndir1: true,
+      ndir2: true,
+      no: true,
+      zirox: true,
+    },
+    uv_lamp: true,
+    autosampler: false
+  }
 }

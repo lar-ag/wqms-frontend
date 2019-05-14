@@ -7,7 +7,7 @@ module.exports = function (ctx) {
     boot: [
       'i18n',
       'axios',
-      'vuenut'
+      'fontawesome-pro'
     ],
 
     css: [
@@ -17,13 +17,14 @@ module.exports = function (ctx) {
     extras: [
       'roboto-font',
       'material-icons', // optional, you are not bound to it
-      'mdi-v3'
+      'mdi-v3',
       // 'ionicons-v4',
       // 'fontawesome-v5',
       // 'eva-icons'
     ],
 
     framework: {
+
       // all: true, // --- includes everything; for dev only!
       // config: {
       //   brand: {
@@ -57,6 +58,7 @@ module.exports = function (ctx) {
         'QList',
         'QItem',
         'QItemSection',
+        'QFooter',
         'QItemLabel'
       ],
 
@@ -67,7 +69,8 @@ module.exports = function (ctx) {
       // Quasar plugins
       plugins: [
         'Notify'
-      ]
+      ],
+      iconSet: 'fontawesome-v5-pro'
 
       // iconSet: 'ionicons-v4'
       // lang: 'de' // Quasar language

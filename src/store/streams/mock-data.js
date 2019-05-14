@@ -66,5 +66,12 @@ export default {
       text: 'Hey Brian, are you going to be talking about functional stuff?',
       timestamp: Date.now() - 49999
     }
-  ]
+  ],
+  TOC: {
+    stream: 1,
+    channel: 1,
+    name: 'TOC',
+    unit: 'unit',
+    value: 150.0
+  }
 }

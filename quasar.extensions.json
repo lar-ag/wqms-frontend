@@ -1,0 +1,12 @@
+{
+  "@quasar/qscroller": {},
+  "@quasar/icon-factory": {
+    "confirm_icon": true,
+    "minify_dev": "pngquant",
+    "minify_build": "optipng",
+    "background_color": "#000074",
+    "splashscreen_type": "generate",
+    "build_always": true
+  },
+  "@quasar/qcalendar": {}
+}

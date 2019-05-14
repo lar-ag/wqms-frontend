@@ -1,7 +1,10 @@
-# WQMS Quasar App
+# `wqms-frontend` Vue - Quasar App
 
-`Anwendung` : Grafische Benutzerschnitstelle.
+`Anwendung` : Grafische Benutzeroberflache
 
 
 
 > WIP
+
+
+## Web , Vue, Quasar ..

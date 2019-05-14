@@ -4,6 +4,14 @@ import Vuex from 'vuex'
 // import example from './module-example'
 import analyser from './analyser'
 import streams from './streams'
+import airflow from './airflow'
+import humidity from './humidity'
+import pressure from './pressure'
+import uvlamp from './uvlamp'
+import channels from './channels'
+import sensors from './sensors'
+import autosampler from './autosampler'
+
 import ui from './ui'
 
 Vue.use(Vuex)
@@ -18,8 +26,15 @@ export default function (/* { ssrContext } */) {
     modules: {
       ui,
       analyser,
-      streams
-    },
+      streams,
+      sensors,
+      airflow,
+      humidity,
+      pressure,
+      uvlamp,
+      autosampler,
+      channels
+  },
 
     // enable strict mode (adds overhead!)
     // for dev mode only
